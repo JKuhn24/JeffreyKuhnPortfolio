@@ -1,0 +1,188 @@
+/*
+Original Author: Jeffrey Kuhn
+Date Created: April 27th, 2019
+Version: 4 (First Live Version)
+Date Last Modified: 10-23-19
+Modified by: Jeffrey Kuhn
+Modification log: 9-27-19: Added Comments. Added changes to divs and body.
+
+				  10-22-19: Changed website to green, modified body to be more centered. 
+				  Added HTML tag to changed background to light green.
+				  Removed hover tag on the nav bar to keep consistant margins and padding while navigating website.
+				  Changed margin and padding on nav, h1 and h2 tags.
+				  Modified mobile layout to allow content to fit more including removing image on index.html.
+
+				  10-23-19: Added comments to document code more.
+ 
+*/
+/* Adding fonts */
+@font-face{
+	font-family: cantarell;
+	src: url('../fonts/Cantarell-Regular-webfont.ttf'),
+		 url('../fonts/Cantarell-Regular-webfont.woff');
+}
+/* HTML Styles */
+html{
+	background-color: rgb(188, 245, 188);
+}
+/* Header Styles */
+header{
+	background-color: rgb(18, 161, 18);
+	padding-top: .3em;
+	font-family: 'Times New Roman', cursive, serif;
+}
+div{
+	font-size: 1.1em;
+}
+p#time {
+	text-align: right;
+	align-content: right;
+	margin-top: 0px;
+	margin-right: 1em;
+	padding: 0em;
+	font-size: 1.2em;
+}
+header h1{
+	font-family: 'Dancing Script', cursive;
+	padding-right: 0em;
+	margin-right: 0em;
+}
+/* Nav Styles*/
+nav{
+	text-align: center;
+	background-color: rgb(0, 128, 0);
+	font-size: 1.25em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	margin: 0em;
+	width: 100%;
+}
+nav h1{
+	margin-right: 0em;
+}
+nav ul{
+	padding: 0em;
+}
+nav ul li{
+	color: white;
+	list-style: none;
+	display: inline;
+	margin: 1.5em;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+/* Body Styles */
+body {
+	background-color: rgb(99, 233, 99);
+	margin: 0em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: rgb(51, 51, 51) 10px 0px 15px,
+            	 rgb(51, 51, 51) -10px 0px 15px;
+}
+/* Main Styles */
+h2{
+	margin-top: .3em;
+	margin-bottom: .3em;
+	font-family: cantarell, cursive, serif
+}
+p{
+	padding-bottom: 1em;
+}
+div.contact{
+	text-align: center;
+}
+main{
+	padding-left: 9em;
+	padding-right: 9em;
+}
+/* Footer Styles */
+footer{
+	background-color: rgb(18, 161, 18);
+	padding: 1.5em;
+	text-align: center;
+}
+/* Styles specific to personal.html */
+.personal{
+	text-align: center;
+	margin-bottom: 3em;
+}
+.personalheader{
+	margin-bottom: 1em;
+}
+/* Table Styles */
+table, caption, th, td{
+	border: solid black 1px;
+}
+th, td{
+		padding: .3em;
+		background-color: white;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	background-color: rgb(0, 128, 0);
+}
+caption{
+	background-color: 	rgb(18, 161, 18);
+}
+/* Span Styles */
+span{
+	color: red;
+}
+.warning{
+	font-size: .8em;
+	margin-bottom: 1em;
+}
+/* Image Styles */
+.me{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: .5em;
+}
+#home{
+	float: left;
+	margin: .3em;
+}
+
+/* Comment Style */
+div#comment{
+	margin-top: 1em;
+}
+/* Button Style */
+input.btn{
+	margin-bottom: 1em;
+}
+/*********************************Mobile Breakpoint******************************/
+@media (max-width: 641px){
+	nav ul li{
+		display: block;
+		margin:.2em;
+		text-align: left
+	}
+	html{
+		background-color: rgb(188, 245, 188);
+	}
+	body{
+		width: 100%;
+	}
+	main{
+		padding-left: 3em;
+		padding-right: 3em;
+	}
+	img.me{
+		display: none;
+	}
+	table{
+		background-color: #0000cc;
+	}
+	#home{
+		display: none;
+	}
+}

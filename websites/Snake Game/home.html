@@ -1,0 +1,31 @@
+<html lang="en">
+    <!-- 
+
+Original Author: Jeffrey Kuhn
+Date Created: 10-3-19
+Version: 1
+Date Last Modified: 10-4-19
+Modified by: Jeffrey Kuhn
+Modification log: Added tracker for high score, a button to reset without losing high score and a warning for errors that may occur pressing reset
+ 
+-->
+    <head>
+        <title>Snake Game</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script src="js/snake.js" async></script>
+    </head>
+    <body>
+            <!-- Play space for game -->
+            <canvas id="snake" width="608" height="608"></canvas>
+            <!-- Tracker for high score -->
+            <div>
+                <p>High Score:</p>
+                <p id="highScore"></p>
+            </div>
+            <!-- Retry button -->
+            <button onclick="retry()">Retry</button>
+            <!-- Bug warning -->
+            <p id="warning">If you press an arrow key after losing, square may start moving right after pressing "Retry"<br/>If you press "Retry" multiple times before moving game may break and need refreshed.</p>
+    </body>
+       
+</html>

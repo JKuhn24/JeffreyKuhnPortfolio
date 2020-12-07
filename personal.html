@@ -1,0 +1,156 @@
+<!--
+
+Original Author: Jeffrey Kuhn
+Date Created: April 27, 2019
+Version: 3 (First Live Version)
+Date Last Modified: 10-23--19
+Modified by: Jeffrey Kuhn
+Modification log: 9-27-19: Added comments and Javascript.
+                  10-23-19: Added jQuery to examples of previous projects. Added examples for projects.
+ 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jeffrey Kuhn</title>
+<meta charset="utf-8">
+<meta name="description" content="Personal Portfolio">
+<meta name="keywords" content="Portfolio, Jeffrey, myself">
+<meta name="author" content="Jeffrey Kuhn">
+<meta name="viewport" content="width=device-width, initial-scale-1" />
+<link href="css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<script src="javascript/javascript.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--<script>
+    // Change image sizes when mouse is over them and when mouse leaves picture
+    $(document).ready(function(){
+        // When mouse enters, changes size of picture
+        $("#ex1").mouseenter(function(){
+            $("#ex1").animate({
+                width: '1000px'
+        });
+     });
+        // When mouse leaves, reverts first picture back to original size
+        $("#ex1").mouseleave(function(){
+            $("#ex1").animate({
+                width: '500px'
+            });
+        });
+        // When mouse enters, changes size of picture
+        $("#ex2").mouseenter(function(){
+            $("#ex2").animate({
+                width: '600px'
+        });
+     });
+     // When mouse leaves, reverts second picture back to original size
+        $("#ex2").mouseleave(function(){
+            $("#ex2").animate({
+                width: '300px'
+            });
+        });
+        // When mouse enters, changes size of picture
+        $("#ex3").mouseenter(function(){
+            $("#ex3").animate({
+                width: '900px'
+        });
+     });
+     // When mouse leaves, reverts third picture back to original size
+        $("#ex3").mouseleave(function(){
+            $("#ex3").animate({
+                width: '500px'
+            });
+        });
+    }); 
+    </script>-->
+</head>
+<body>
+<header>
+<a id="home" href="index.html"><img id="home" src="images/iconmonstr-home-1-48.png" alt="Home Button"></a>
+<h1>Jeffrey Kuhn</h1>
+<!-- Clock -->
+<p id="time"></p>
+<!-- Navigation -->
+<nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="personal.html">Personal Experience</a></li>
+    <li><a href="contact.html">Contact Me/Feedback</a></li>
+    </ul>
+</nav>
+</header>
+<main class="personal">
+<div>
+    <!-- Table for past experience-->
+<h2 class="personalheader">Coding Experience</h2>
+<table>
+    <caption>CWI Classes</caption>
+    <tr>
+        <th>Semester</th>
+        <th>Name</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>1a</td>
+        <td>SWDV-105 - Intro to Programming</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>1b</td>
+        <td>SWDV-110 - Intermediate Programming</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>1c</td>
+        <td>SWDV-115 - 001 - Web Application Development</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>2a</td>
+        <td>SWDV-131 - 001 - Web Styling</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>2b</td>
+        <td>SWDV-140 - 001 - Intermediate Web App Develpmnt</td>
+        <td>A</td>
+    </tr>
+</table>
+<span class="warning">*Not finalized as of time of writing.</span>
+<!-- Past Projects -->
+<h2>Work Experience</h2>
+<p>This section is dedicated to websites I have made in class for now. If I make any new websites they will be added here.</p>
+<h3>Web Styling Project</h3>
+<!-- Larry's American Burgers project -->
+<h4>Larry's American Burger</h4>
+<p><a href="http://www.w3expressions.com/jeffreykuhn/Larry's%20American%20Burgers/" target="blank_"><img id="ex1" src="images/Larry's.png" style="width: 500px;"></a></p>
+<!-- Projects from Web App Development -->
+<h3>Web App Development Projects</h3>
+<!-- Snake Game project -->
+<h4>Snake Game</h4>
+<p><a href="websites/Snake Game/home.html" target="blank_"><img id="ex2" src="images/Snake.png" style="width: 300px;"></a></p>
+<!-- Animation project -->
+<h4>5 Stage Animation</h4>
+<p><a href="websites/Animation/home.html" target="blank_"><img id="ex3" src="images/Animation.png" style="width: 500px;"></a></p>
+<h4>Disk Inventory</h4>
+<p><a href="https://github.com/JKuhn24/Disk_Inventory" target="blank_">GitHub Link</a></p>
+<h3>Game Design Projects</h3>
+<p>This section is dedicated to the projects I have done in Unity and other game engines</p>
+<h4>Maze Game</h4>
+<p><a href="https://sharemygame.com/@JeffreyK/mazegame" target="blank_"><img id="ex4" src="images/MazeGame.png" style="width: 500px;"></a></p>
+<h3>Other Projects</h3>
+<p>Projects I have worked on while doing things such as learning other languages</p>
+<h4>Java Tetris: Github link</h4>
+<p><a href="https://github.com/JKuhn24/JavaTetris" target="blank_">GitHub Link</a></p>
+
+
+</div>
+</main>
+<!-- Footer -->
+<footer>
+    <a href="https://www.linkedin.com/in/jeffrey-kuhn-871a7a197/" target="_blank"><img src="images/iconmonstr-linkedin-3-48.png" alt="Linkedin Icon"></a>
+    <a href="https://github.com/JKuhn24" target="_blank"><img src="images/iconmonstr-github-1-48.png" alt="Github Icon"></a>
+</footer>
+</body>
+</html>

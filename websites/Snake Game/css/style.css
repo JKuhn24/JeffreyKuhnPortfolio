@@ -1,0 +1,25 @@
+@charset "utf-8";
+/*
+
+Original Author: Jeffrey Kuhn
+Date Created: 10-4-19
+Version: 1
+Date Last Modified: 10-4-19
+Modified by: Jeffrey Kuhn
+Modification log: page created
+ 
+*/
+
+/* Body CSS */
+body {
+    background-color: rgb(25, 179, 25);
+}
+/* Div CSS */
+div {
+    float: top;
+    font-size: 1.2em;
+}
+/* button CSS */
+button {
+    font-size: 1.5em;
+}
